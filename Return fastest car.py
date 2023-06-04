@@ -7,8 +7,6 @@ class Car:
         return f"Car (make: {self.make}, top speed: {self.top_speed})"
 
 
-# WRITE YOUR SOLUTION HERE:
-
 def fastest_car(cars: list):
     fastest = cars[1]
     for item in cars:
