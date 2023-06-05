@@ -1,4 +1,3 @@
-# TEE RATKAISUSI TÄHÄN:
 class ComputerGame:
     def __init__(self, name: str, publisher: str, year: int):
         self.name = name
@@ -33,5 +32,5 @@ museum = GameMuseum()
 museum.add_game(ComputerGame("Pacman", "Namco", 1980))
 museum.add_game(ComputerGame("GTA 2", "Rockstar", 1999))
 museum.add_game(ComputerGame("Bubble Bobble", "Taito", 1986))
-for game in museum.list_games():
-    print(game.name)
+for Game in museum.list_games():
+    print(Game.name)
