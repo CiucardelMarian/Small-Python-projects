@@ -1,7 +1,7 @@
 import random
 
 
-class WordGame():
+class WordGame:
     def __init__(self, rounds: int):
         self.wins1 = 0
         self.wins2 = 0
